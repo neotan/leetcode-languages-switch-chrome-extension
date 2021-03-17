@@ -1,0 +1,15 @@
+.toolbar {
+  padding-left: 1rem;
+}
+
+.btn-sm {
+  font-size: 75%;
+}
+
+.btn-md {
+  font-size: 90%;
+}
+
+.btn-lg {
+  font-size: 100%;
+}
