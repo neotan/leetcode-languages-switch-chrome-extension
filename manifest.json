@@ -1,17 +1,24 @@
 {
-  "name": "Leetcode languages switch and todo list",
-  "description": "Switching between English and Chinese site and logging down question URLs easily.",
-  "version": "0.0.1",
-  "manifest_version": 2,
+  "name": "Leetcode languages switcher",
+  "description": "Switching between English and Chinese sites.",
+  "version": "0.0.2",
+  "manifest_version": 3,
   "icons": {
     "16": "logo.png",
     "48": "logo.png",
     "128": "logo.png"
   },
-  "content_scripts": [{
-    "css": ["purecss.min.css", "style.css"],
-    "js": ["jquery.min.js", "js.storage.min.js", "content_scripts.js"],
-    "matches": ["*://*.leetcode.com/*", "*://*.leetcode-cn.com/*"],
-    "run_at": "document_end"
-  }]
+  "permissions": [],
+  "content_scripts": [
+    {
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "*://*.leetcode.com/*",
+        "*://*.leetcode.cn/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
 }
