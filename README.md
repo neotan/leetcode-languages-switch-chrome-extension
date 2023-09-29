@@ -2,6 +2,9 @@
 Switching between English and Chinese site and logging down question URLs easily.
 
 ## Installation
+https://chrome.google.com/webstore/detail/leetcode-languages-switch/ohopomahndmhjmidgcalgandlbgepaem
+
+## Manual Installation
 
 1. Download this repo by clicking uper-right `Download ZIP` under the `Clone` dropdown menu
 2. Extract the `.zip` file as a folder e.g. `leetcode-languages-switch-chrome-extension-master`
